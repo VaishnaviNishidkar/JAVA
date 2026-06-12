@@ -35,5 +35,31 @@ public static void main(String[] args)[
 //equals method-> check content
 //== operator -> check address
 
+
+//indexOf- find 1st instance of character inn given string, if character isnt present in given string it return -1
+
+ System.out.println(str1.indexOf(y); //2
+ System.out.println(str1.indexOf('a',1); //3
+
+//Replace- replace every instance of char in given string with new char
+  String str="Ashish";
+ System.out.println(str.replace('s','x'); //Axhixh
+
+//substring- create substring of given string starting at specific index & ending at 1 cchar b4 specific index
+ System.out.println(str.substring(2));  // hish
+   System.out.println(str.substring(2,5));  //his
+
+//Trim-trims all whitespaces before & after string
+  String str5="           Radha        ";
+  System.out.println(str5.trim());      //Radha 
+
+
+//toUpperCase(),toLowerCase()
+  String str6= "VEDANT";
+  String str7="yuvanshi";
+   System.out.println(str.toLowerCase());  //vedant
+  System.out.println(str.toUpperCase());  //YUVANSHI
+
+
 }
 }
